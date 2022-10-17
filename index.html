@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>keyboard-demo</title>
+</head>
+
+<body>
+    <p id="name"></p>
+    <div class="keyboard-wrapper">
+        <!-- 一番目の段 -->
+        <div class="keys">
+            <input type="button" value="ア" onclick="typed(event)">
+            <input type="button" value="カ" onclick="typed(event)">
+            <input type="button" value="サ" onclick="typed(event)">
+            <input type="button" value="タ" onclick="typed(event)">
+            <input type="button" value="ナ" onclick="typed(event)">
+            <input type="button" value="ハ" onclick="typed(event)">
+            <input type="button" value="マ" onclick="typed(event)">
+            <input type="button" value="ヤ" onclick="typed(event)">
+            <input type="button" value="ラ" onclick="typed(event)">
+            <input type="button" value="ワ" onclick="typed(event)">
+            <input type="button" value="小字" onclick="typed(event)">
+            <input type="button" value="削除" onclick="deleteBtn()" class="long-input">
+        </div>
+         <!-- 二番目の段 -->
+         <div class="keys">
+            <input type="button" value="イ" onclick="typed(event)">
+            <input type="button" value="キ" onclick="typed(event)">
+            <input type="button" value="シ" onclick="typed(event)">
+            <input type="button" value="チ" onclick="typed(event)">
+            <input type="button" value="ニ" onclick="typed(event)">
+            <input type="button" value="ヒ" onclick="typed(event)">
+            <input type="button" value="ミ" onclick="typed(event)">
+            <input type="button" value="　" >
+            <input type="button" value="リ" onclick="typed(event)">
+            <input type="button" value="ヲ" onclick="typed(event)">
+            <input type="button" value="゛" onclick="typed(event)">
+            <input type="button" value="スペース" onclick="typed(event)" class="long-input">
+        </div>
+         <!-- 三番目の段 -->
+         <div class="keys">
+            <input type="button" value="ウ" onclick="typed(event)">
+            <input type="button" value="ク" onclick="typed(event)">
+            <input type="button" value="ス" onclick="typed(event)">
+            <input type="button" value="ツ" onclick="typed(event)">
+            <input type="button" value="ヌ" onclick="typed(event)">
+            <input type="button" value="フ" onclick="typed(event)">
+            <input type="button" value="ム" onclick="typed(event)">
+            <input type="button" value="ユ" onclick="typed(event)">
+            <input type="button" value="ル" onclick="typed(event)">
+            <input type="button" value="ン" onclick="typed(event)">
+            <input type="button" value="゜" onclick="typed(event)">
+        </div>
+        <!-- 四番目の段 -->
+        <div class="keys">
+            <input type="button" value="エ" onclick="typed(event)">
+            <input type="button" value="ケ" onclick="typed(event)">
+            <input type="button" value="セ" onclick="typed(event)">
+            <input type="button" value="テ" onclick="typed(event)">
+            <input type="button" value="ネ" onclick="typed(event)">
+            <input type="button" value="ヘ" onclick="typed(event)">
+            <input type="button" value="メ" onclick="typed(event)">
+            <input type="button" value="　">
+            <input type="button" value="レ" onclick="typed(event)">
+            <input type="button" value="ー" onclick="typed(event)">
+            <input type="button" value="？" onclick="typed(event)">
+        </div>
+        <!-- 五番目の段 -->
+        <div class="keys">
+            <input type="button" value="オ" onclick="typed(event)">
+            <input type="button" value="コ" onclick="typed(event)">
+            <input type="button" value="ソ" onclick="typed(event)">
+            <input type="button" value="ト" onclick="typed(event)">
+            <input type="button" value="ノ" onclick="typed(event)">
+            <input type="button" value="ホ" onclick="typed(event)">
+            <input type="button" value="モ" onclick="typed(event)">
+            <input type="button" value="ヨ" onclick="typed(event)">
+            <input type="button" value="ロ" onclick="typed(event)">
+            <input type="button" value="。" onclick="typed(event)">
+            <input type="button" value="！" onclick="typed(event)">
+            <input type="button" value="決定" onclick="typed(event)" class="long-input">
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

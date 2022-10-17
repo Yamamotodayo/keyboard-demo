@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* .keyboard-wrapper {
+    display: flex;
+} */
+
+.keyboard-wrapper {
+}
+
+.keyboard-wrapper .keys input{
+    font-size: 16px;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    border-color: rgb(197, 197, 197);
+}
+
+.keyboard-wrapper .keys .long-input {
+    width: 8%;
+}
+
+/* ボタンが押された時 */
+.keyboard-wrapper .keys input:focus {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5),
+      inset -3px -3px 7px rgba(255, 255, 255, 0.05);
+  }
