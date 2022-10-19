@@ -1,17 +1,25 @@
 let input = document.querySelectorAll("input")
 let named = document.getElementById("name")
-let nnn
+let names = []
+let nameCount = 0
+// let nnn
 
 console.log(input);
 
-input.forEach(element => {
-    console.log(element);
-});
+// input.forEach(element => {
+//     console.log(element);
+// });
 function typed(e) {
-    nnn = e.target.value
-    named.innerHTML += nnn
+    names[nameCount] = e.target.value 
+    // nnn = e.target.value
+    // named.innerHTML += nnn
     // named.innerHTML += e.target.value
+    
+    named.innerHTML = names.join("")
+
     console.log(named);
+    nameCount++
+    console.log(names);
 }
 
 for (i = 0; i < input.length; i++) {
