@@ -4,7 +4,26 @@
     display: flex;
 } */
 
+.name-wrapper {
+    height: 30px;
+    min-width: 300px;
+    border: solid 2px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#name {
+    display: inline;
+    letter-spacing: 0.8rem;
+    /* border-bottom: 1px dashed black; */
+    padding-bottom: 0.1rem;
+    background-image : linear-gradient(to right, #000, #000 18px, transparent 1px);  /* 幅2の線を作る */
+    background-size: 29px 1.6px;          /* グラデーションの幅・高さを指定 */
+    background-position: left bottom;  /* 背景の開始位置を指定 */
+    background-repeat: repeat-x;       /* 横向きにのみ繰り返す */
+}
+
 .keyboard-wrapper {
+    margin: 0 auto;
 }
 
 .keyboard-wrapper .keys input{

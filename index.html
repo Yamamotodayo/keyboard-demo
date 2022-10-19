@@ -10,7 +10,9 @@
 </head>
 
 <body>
-    <p id="name"></p>
+    <div class="name-wrapper">
+        <p id="name"></p>
+    </div>
     <div class="keyboard-wrapper">
         <!-- 一番目の段 -->
         <div class="keys">
@@ -39,8 +41,8 @@
             <input type="button" value="　" >
             <input type="button" value="リ" onclick="typed(event)">
             <input type="button" value="ヲ" onclick="typed(event)">
-            <input type="button" value="゛" onclick="typed(event)">
-            <input type="button" value="スペース" onclick="typed(event)" class="long-input">
+            <input type="button" value="゛" onclick="dakuBtn()">
+            <input type="button" value="スペース" onclick="spaceBtn()" class="long-input">
         </div>
          <!-- 三番目の段 -->
          <div class="keys">
@@ -87,6 +89,6 @@
         </div>
     </div>
 </body>
-<script src="./script.js"></script>
+<script type="module" src="./script.js"></script>
 
 </html>
