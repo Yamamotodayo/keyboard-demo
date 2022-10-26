@@ -4,11 +4,17 @@
     display: flex;
 } */
 
+.wrapper {
+    width: auto;
+    text-align: center;
+}
+
 .name-wrapper {
     height: 30px;
-    min-width: 300px;
+    max-width: 780px;
     border: solid 2px rgba(0, 0, 0, 0.5);
     padding: 10px;
+    margin: auto;
 }
 
 #name {
@@ -54,6 +60,7 @@
   
 .keyboard-row {
     display: flex;
+    justify-content: center;
 }
 
 .hidden {
