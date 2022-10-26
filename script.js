@@ -22,8 +22,8 @@ input.forEach(function(ele) {
             komojiBtn()
             return
 
-        }if(ele.value === 'スペース') {
-            spaceBtn()
+        }if(ele.value === '全削除') {
+            allDeleteBtn()
             return
 
         }if(ele.value === '゛') {
@@ -74,10 +74,13 @@ function komojiBtn() {
 }
 
 // スペースボタン
-function spaceBtn() {
-    names[Count] = "　"
+function allDeleteBtn() {
+
+    if (Count !==0) {
+        names = []
+        Count = 0
+    }
     named.innerHTML = names.join("")
-    Count++
     console.log(names);
 }
 
